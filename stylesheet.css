@@ -1,0 +1,66 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark {
+    background-color: #121212e8;
+    color: white;
+    transition: background 0.3s linear, color 0.3s linear;
+}
+
+body.dark .card {
+    color: black;
+}
+
+body.dark div.card-body {
+    color: black;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046c5;
+}
+
+header h2 {
+    color: #cec8ff;
+}
+
+.site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+    color: white;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar-dark {
+    background-color: #901cad;
+}
+
+.tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.carousel {
+    border: solid #5637DD;
+}
